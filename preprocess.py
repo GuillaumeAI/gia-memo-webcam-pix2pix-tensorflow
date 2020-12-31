@@ -16,14 +16,14 @@ import cv2
 import PIL.Image
 
 
-dim = 3096  # target dimensions, 
+dim = 1024  # target dimensions, 
 do_crop = False # if true, resizes shortest edge to target dimensions and crops other edge. If false, does non-uniform resize
 
 canny_thresh1 = 100
 canny_thresh2 = 200
 
-root_path = './sampledata'
-in_path = os.path.join(root_path, 'content')
+root_path = '/a/lib/datasets'
+in_path = os.path.join(root_path, 'gia-young-picasso-v04-2012211928')
 out_path = os.path.join(root_path, 'out')
 
 
