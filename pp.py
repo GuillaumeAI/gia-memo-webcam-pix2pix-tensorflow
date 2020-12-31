@@ -22,9 +22,9 @@ do_crop = False # if true, resizes shortest edge to target dimensions and crops 
 canny_thresh1 = 100
 canny_thresh2 = 200
 
-root_path = 'C:\Users\jeang\Dropbox\lib\datasets\gia-young-picasso-v04-2012211928-tii-v02-rogner-01-02'
-in_path = os.path.join(root_path, 'content')
-out_path = os.path.join(root_path, 'out')
+root_path = '/mnt/c/Users/jeang/Dropbox/lib/datasets'
+in_path = os.path.join(root_path, 'gia-young-picasso-v04-2012211928-tii-v02-rogner-01-02')
+out_path = os.path.join(root_path, 'gia-young-picasso-v04-2012211928-tii-v02-rogner-01-02-out')
 
 
 #########################################
